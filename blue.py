@@ -8,9 +8,9 @@ num_pixels = 8
 
 ORDER = neopixel.RGB
 
-pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=1.0, auto_write=False,
+pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.4, auto_write=False,
                            pixel_order=ORDER)
 
 
-pixels.fill((255, 255, 255))
+pixels.fill((0, 0, 255))
 pixels.show()

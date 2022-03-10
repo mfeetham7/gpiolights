@@ -1,1 +1,1 @@
-sudo /bin/python3 /home/pi/half.py
+sudo /bin/python3 /home/pi/RPi-GPIO-Lights/half.py
